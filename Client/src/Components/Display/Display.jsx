@@ -102,7 +102,7 @@ const DisplayScreen = ()=>{
          
             <div className="flex flex-col  justify-center">
          {main.Images.map(image=>{
-          return <a href={image} className="text-gray-500">{image}</a>
+          return <a href={image} target='_blank' className="text-gray-500">{image}</a>
          })}
       
             </div>
