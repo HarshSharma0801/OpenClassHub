@@ -9,7 +9,7 @@ import AddFile from './Components/AddFile/AddFile'
 import Signout from './Components/Account/SignOut'
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:5000";
+  axios.defaults.baseURL = "https://open-class-hub-backend.vercel.app/";
   return (
     <>
     <Routes>
