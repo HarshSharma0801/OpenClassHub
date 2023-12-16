@@ -10,9 +10,9 @@ const Account = () => {
       <div className= "p-6 md:p-24 md:flex-row flex-col flex gap-4 md:gap-16">
         <div>
           <button
-        //    onClick={()=>{
-        //     navigate("/account/uploadfile")
-        //   }}
+           onClick={()=>{
+            navigate("/account/addfile")
+          }}
            className="text-xl flex gap-2 p-3 px-6 rounded-full  border border-primary bg-white  hover:bg-primary hover:text-white">
             Upload{" "}
             <svg
@@ -44,9 +44,9 @@ const Account = () => {
         </div>
         <div>
            <button
-        //     onClick={()=>{
-        //     navigate("/account/signout")
-        //   }}
+            onClick={()=>{
+            navigate("/account/signout")
+          }}
            className="text-xl flex gap-2 p-3 px-6 rounded-full  border border-primary bg-white  hover:bg-primary hover:text-white"> 
             Login Info{" "}
            

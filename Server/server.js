@@ -4,6 +4,7 @@ import cors from 'cors'
 import bodyParser from 'body-parser'
 import 'dotenv/config'
 import Auth from './Controllers/Auth.js'
+import File from './Controllers/Files.js'
 
 const app = express();
 
@@ -34,7 +35,7 @@ app.use(express.json({
 
     //Routes
     app.use(Auth);
-
+    app.use(File);
 
     //Server Listen
 
